@@ -130,11 +130,17 @@
                                     <constraint firstAttribute="height" constant="50" id="JPS-YN-oFU"/>
                                 </constraints>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Tjx-NB-HcK" userLabel="dancemove">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Tjx-NB-HcK" userLabel="dancemove">
                                 <rect key="frame" x="41" y="95" width="238" height="223"/>
                                 <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="upK-FP-AMt">
+                                        <rect key="frame" x="0.0" y="0.0" width="238" height="111.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qze-in-Zzs">
-                                        <rect key="frame" x="0.0" y="0.0" width="238" height="223"/>
+                                        <rect key="frame" x="0.0" y="111.5" width="238" height="111.5"/>
                                     </imageView>
                                 </subviews>
                             </stackView>
@@ -182,7 +188,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="danceImage" destination="Qze-in-Zzs" id="Es8-0Y-c1K"/>
                         <outlet property="danceimg" destination="Qze-in-Zzs" id="Rk4-rT-2B5"/>
+                        <outlet property="imgLabel" destination="upK-FP-AMt" id="Ytt-yP-X6J"/>
                         <outlet property="nameLabel" destination="Bj7-lL-xeU" id="tQ6-xZ-Ai5"/>
                         <outlet property="statusLabel" destination="CKR-jG-dOe" id="ppd-iH-foz"/>
                     </connections>
