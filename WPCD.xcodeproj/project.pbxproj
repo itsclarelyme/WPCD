@@ -14,6 +14,8 @@
 		9C256B0F1E281D69005FB6E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C256B0D1E281D69005FB6E0 /* LaunchScreen.storyboard */; };
 		9C256B1A1E281D69005FB6E0 /* WPCDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C256B191E281D69005FB6E0 /* WPCDTests.swift */; };
 		9C256B251E281D69005FB6E0 /* WPCDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C256B241E281D69005FB6E0 /* WPCDUITests.swift */; };
+		9C256B351E282CE2005FB6E0 /* mainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C256B341E282CE2005FB6E0 /* mainVC.swift */; };
+		9C256B371E282F6E005FB6E0 /* danceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C256B361E282F6E005FB6E0 /* danceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		9C256B201E281D69005FB6E0 /* WPCDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPCDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C256B241E281D69005FB6E0 /* WPCDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPCDUITests.swift; sourceTree = "<group>"; };
 		9C256B261E281D69005FB6E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C256B341E282CE2005FB6E0 /* mainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainVC.swift; sourceTree = "<group>"; };
+		9C256B361E282F6E005FB6E0 /* danceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = danceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				9C256B0B1E281D69005FB6E0 /* Assets.xcassets */,
 				9C256B0D1E281D69005FB6E0 /* LaunchScreen.storyboard */,
 				9C256B101E281D69005FB6E0 /* Info.plist */,
+				9C256B341E282CE2005FB6E0 /* mainVC.swift */,
+				9C256B361E282F6E005FB6E0 /* danceViewController.swift */,
 			);
 			path = WPCD;
 			sourceTree = "<group>";
@@ -193,6 +199,7 @@
 				TargetAttributes = {
 					9C256B001E281D69005FB6E0 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YFSS6L6TW7;
 						ProvisioningStyle = Automatic;
 					};
 					9C256B141E281D69005FB6E0 = {
@@ -261,6 +268,8 @@
 			files = (
 				9C256B071E281D69005FB6E0 /* ViewController.swift in Sources */,
 				9C256B051E281D69005FB6E0 /* AppDelegate.swift in Sources */,
+				9C256B371E282F6E005FB6E0 /* danceViewController.swift in Sources */,
+				9C256B351E282CE2005FB6E0 /* mainVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +421,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YFSS6L6TW7;
 				INFOPLIST_FILE = WPCD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = clare.WPCD;
@@ -424,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YFSS6L6TW7;
 				INFOPLIST_FILE = WPCD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = clare.WPCD;
