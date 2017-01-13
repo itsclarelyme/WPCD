@@ -516,6 +516,7 @@
 				9C256B2B1E281D69005FB6E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C256B2C1E281D69005FB6E0 /* Build configuration list for PBXNativeTarget "WPCDTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +525,7 @@
 				9C256B2E1E281D69005FB6E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C256B2F1E281D69005FB6E0 /* Build configuration list for PBXNativeTarget "WPCDUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +534,7 @@
 				9C256B311E281D69005FB6E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
